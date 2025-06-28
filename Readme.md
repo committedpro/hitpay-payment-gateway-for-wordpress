@@ -32,7 +32,7 @@ And merchant need to copy the API keys and Salt values from the HitPay Web Dashb
 = Using The WordPress Dashboard =
 
 1. Navigate to the 'Add New' in the plugins dashboard
-2. Search for 'HitPay Payment Gateway'
+2. Search for 'HitPay Payment Gateway for WordPress'
 3. Click 'Install Now'
 4. Activate the plugin on the Plugin dashboard
 
@@ -102,7 +102,10 @@ or
 
 == Payment Forms ==
 
+```[hitpay-paynow-button amount=100 currency=EUR ]HitPay Cards[/hitpay-paynow-button]```
 ![](hitpay-payment-gateway-for-wordpress/assets/screenshots/3-payment-form.png)
+
+```[hitpay-paynow-button]PayNow and Cards[/hitpay-paynow-button]```
 ![](hitpay-payment-gateway-for-wordpress/assets/screenshots/4-payment-form.png)
 
 == Manage Payment Transactions ==
