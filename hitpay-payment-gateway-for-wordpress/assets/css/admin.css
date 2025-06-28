@@ -1,0 +1,17 @@
+#wp-hitpay-transaction-data .action-buttons {
+    border-bottom: 1px solid #dfdfdf;
+    padding: 1.5em 2em;
+    background: #f8f8f8;
+    line-height: 2em;
+    text-align: left;
+}
+.wp-hitpay-transaction-data-table  td{
+    padding: 10px;
+} 
+.wp-hitpay-transaction-data-table  td:first-child{
+    background-color: aliceblue;
+} 
+
+.wp-hitpay-transaction-data-table  td.total{
+    font-weight: 600;
+} 

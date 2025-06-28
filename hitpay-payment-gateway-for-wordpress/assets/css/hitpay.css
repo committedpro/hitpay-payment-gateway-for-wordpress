@@ -1,0 +1,74 @@
+.wp-hitpay-now-form button {
+    -moz-user-select: none;
+    -ms-touch-action: manipulation;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    background-color: #0a2740;
+    border: 1px solid #142a3e;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    margin: 0 0 6px;
+    outline: none;
+    padding: 6px 12px;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.wp-hitpay-now-form button:hover {
+    background-color: #3d5a73;
+}
+
+.wp-hitpay-now-form button:active {
+    background-color: #0a2740;
+}
+
+.wp-hitpay-now-form input {
+    border: 1px solid #777;
+    border-color: #142a3e;
+    border-radius: 4px;
+    color: #777;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    margin: 0 0 6px;
+    outline: none;
+    padding: 6px 12px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.wp-hitpay-now-form label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.failed {
+    color: #a00;
+    font-size: 1.5em;
+}
+
+.success {
+    color: #0a0;
+    font-size: 1.5em;
+}
+.display-amount {
+    font-weight: bold;
+    font-size:16px;
+}
+#wp-hitpay-notice {
+    padding: 10px 10px;
+    border: 1px solid;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: none;
+}
